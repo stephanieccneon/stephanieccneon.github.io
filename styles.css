@@ -13,13 +13,17 @@ body {
 .sidebar {
     width: 25%;
     background-color: #333;
-    color: #fff;
-    padding: 20px;
+    color: whitesmoke;
+    padding: 40px 20px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .sidebar h1, .sidebar h2, .sidebar p {
-    margin: 10px 0;
+    margin: 0;
+    padding: 10px 0;
 }
 
 .social-icons img {
@@ -80,15 +84,4 @@ body {
     height: 150px;
     object-fit: cover;
     margin-bottom: 10px;
-}
-
-/* Footer */
-footer {
-    text-align: center;
-    padding: 10px;
-    background-color: #333;
-    color: #fff;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
 }
