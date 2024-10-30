@@ -1,0 +1,94 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    width: 25%;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.sidebar h1, .sidebar h2, .sidebar p {
+    margin: 10px 0;
+}
+
+.social-icons img {
+    width: 30px;
+    margin: 5px;
+}
+
+/* Main Content */
+.main-content {
+    width: 75%;
+    padding: 20px;
+}
+
+.profile-image {
+    width: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+/* Experience Section */
+.experience-item {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.experience-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.experience-item h3 {
+    margin: 5px 0;
+    font-size: 1.2rem;
+}
+
+.experience-item h4 {
+    color: #666;
+    margin: 0;
+}
+
+/* Projects Section */
+.projects-list {
+    list-style: none;
+    padding: 0;
+}
+
+.project-item {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.project-image {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
